@@ -779,6 +779,8 @@ img {
     justify-content: center;
     cursor: pointer;
     margin-bottom: 24px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close:is(:hover, :focus) {
@@ -792,7 +794,7 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin-bottom: 34px;
+    margin-bottom: 16px;
 }
 
 .modal-field {
@@ -855,7 +857,7 @@ img {
 
 .modal-comment {
     width: 100%;
-    height: 100px;
+    height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     outline: transparent;
@@ -925,3 +927,8 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+
+.policy-link {
+    color: #4D5AE5;
+}
+
